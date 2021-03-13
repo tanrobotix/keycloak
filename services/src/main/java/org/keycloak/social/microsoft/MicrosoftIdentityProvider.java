@@ -43,8 +43,8 @@ public class MicrosoftIdentityProvider extends AbstractOAuth2IdentityProvider im
 
     private static final Logger log = Logger.getLogger(MicrosoftIdentityProvider.class);
 
-    public static final String AUTH_URL = "https://login.microsoftonline.com/common/oauth2/v2.0/authorize"; // authorization code endpoint
-    public static final String TOKEN_URL = "https://login.microsoftonline.com/common/oauth2/v2.0/token"; // token endpoint
+    public static final String AUTH_URL = "https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize"; // authorization code endpoint
+    public static final String TOKEN_URL = "https://login.microsoftonline.com/organizations/oauth2/v2.0/token"; // token endpoint
     public static final String PROFILE_URL = "https://graph.microsoft.com/v1.0/me/"; // user profile service endpoint
     public static final String DEFAULT_SCOPE = "User.read"; // the User.read scope should be sufficient to obtain all necessary user info
 
